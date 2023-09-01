@@ -220,41 +220,34 @@ footer{
 
 .bodyGift{
     background-image: url("../assets/andrew-kliatskyi-OZgeteFmhlo-unsplash\ 1.png");
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.contenedorLogin{
+.ContenedorGift{
     display: flex;
     align-items:center ;
-    background-color: rgba(49, 49, 49, 0.87);  
-    width: 600px;
-    height: 400px;
+    
+    width: 40.625rem;
+    height: 28.125rem;
     margin: 0 auto;
-    margin-top: 3.125rem;
+    margin-top: 9.375rem;
     border-radius: .625rem;
 }
 
-.login form{
-    font-size: 1.25rem;
-    color: white;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;  
-    padding-left:200px;
-    font-family: 'Manrope';
-    
+
+.col-md-6 input{
+    width: 31.25rem;
+}
+.col-md-4 select{
+    width: 31.25rem;
+}
+.col-12 input{
+    width: 31.25rem;
 }
 
-.login img{
-    height: 4.375rem;
-    width: 100px;
-}
 
-.login p{
-    font-size: 3.125rem;
-    font-family: 'Manrope';
-}
 
 .nosotros{
     background-image: url("../assets/contactus.jpg");
@@ -329,7 +322,19 @@ footer{
     .item3{
         grid-area: item3;
     }
+    .bodyGift{
+        width:100%;
+        height: 50rem;
     } 
+    .ContenedorGift form{
+        padding-left: 25rem;
+    }
+    footer{
+        background-repeat:no-repeat ;
+        height: 100%;
+    
+    }
+}
 @media (max-width:768px){
     header{
         flex-direction: column;
@@ -347,8 +352,8 @@ footer{
         font-size:1.25rem;
     }
     .cardTienda{
-        width:200px;
-        height: 350px;
+        width:100%;
+        height:50px;
         
     }
     .productosInicio{
@@ -369,6 +374,18 @@ footer{
     }
     .item3{
         grid-area: item3;
+    }
+    .bodyGift{
+        width:100%;
+        height: 43.75rem;
+    } 
+    .ContenedorGift form{
+        padding-left: 16.25rem;
+    }
+    footer{
+        background-repeat:no-repeat ;
+        height: 100%;
+    
     }
     }
 
@@ -414,7 +431,19 @@ footer{
         .item3{
             grid-area: item3;
         }
-    } 
+        .bodyGift{
+            width: 100%;
+            height: 100%;
+        }
+        .ContenedorGift form{
+            padding-left: 6.25rem;
+        }
+        footer{
+            height: 100%;
+        
+        } 
+
+    }
     @media(max-width:320px){
         header{
             flex-direction: column;
@@ -457,5 +486,17 @@ footer{
         }
         .item3{
             grid-area: item3;
+        }
+        .bodyGift{
+            width: 100%;
+            height: 100%;
+        }
+        .ContenedorGift form{
+            padding-left: 4.375rem;
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            
         }
     }
