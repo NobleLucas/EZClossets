@@ -1,0 +1,15 @@
+@mixin items{
+    grid-area: item1;
+	text-align: center;
+	font-size: 1.875rem;
+	font-family: $font-family_2;
+	color: $color_2;
+	background-color: $background-color_3;
+	letter-spacing: .125rem;
+}        
+
+@mixin colds{
+    input {
+		width: 31.25rem;
+	}
+}

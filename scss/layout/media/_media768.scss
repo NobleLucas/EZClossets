@@ -1,0 +1,55 @@
+@media (max-width:768px) {
+	header {
+		flex-direction: column;
+	}
+	.navbar {
+		li {
+			a {
+				justify-content: center;
+				font-size: 1.5625rem;
+			}
+		}
+	}
+	.sectionPrincipal {
+		width: 100%;
+		height: 18.75rem;
+		h1 {
+			height: 100px;
+			font-size: 1.25rem;
+		}
+	}
+
+    
+	.cardTienda {
+		width: 100%;
+		height: 50px;
+	}
+	.productosInicio {
+		padding-left: 14.375rem;
+		display: grid;
+		width: 200px;
+		grid-template-areas: "item1 item1 item1" "item2 item2 item2" "item3 item3 item3";
+	}
+	.item1 {
+		grid-area: item1;
+	}
+	.item2 {
+		grid-area: item2;
+	}
+	.item3 {
+		grid-area: item3;
+	}
+	.bodyGift {
+		width: 100%;
+		height: 43.75rem;
+	}
+	.ContenedorGift {
+		form {
+			padding-left: 16.25rem;
+		}
+	}
+	footer {
+		background-repeat: no-repeat;
+		height: 100%;
+	}
+}

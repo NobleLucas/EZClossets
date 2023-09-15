@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    flex-direction: row;
+    background-color: #BFBAA8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position:sticky;
+    top: 0;
+    
+}
+
+header img{
+    height: 4.375rem;
+}
+
+
+.navbar{
+    display: flex;
+    list-style:none;
+    gap: 1.25rem;
+    padding-right: 2.5rem;
+}
+
+.navbar li a{
+    font-family:'Quicksand';
+    text-decoration: none;
+    text-align:center;
+    font-size: 1.3125rem;
+    color: rgb(255, 252, 252);
+}
+
+.sectionPrincipal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../assets/iniciobackground.jpg");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionPrincipal h1{
+    font-family:'Manrope';
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    height: 9.6875rem;
+    font-size:40px;
+    text-shadow: 10px;
+    color:#BFBAA8;
+    align-items:center;
+}
+.contenedor h1{
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5) ;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#8c837273;
+}
+
+.sectionSecundaria {
+    height: 60px;
+    background-color:#8C8372;
+}
+
+.contenedor2 h2{
+    font-family:'Manrope';
+    font-size: 1.875rem;
+    letter-spacing: .125rem;
+    color:#BFBAA8;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productosInicio{
+    display: grid;
+    width: 100%;
+    grid-template-columns:30% 30% 30%;
+    grid-template-areas:
+    "item1 item2 item3"
+    ;
+    justify-content: center;
+}
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+
+.cardTienda{
+    width:500px;
+    border:solid 6px #BFBAA8;
+    display: flex;
+    flex-direction: column;
+    border-radius: .625rem;
+    margin: 3.125rem;
+    overflow: hidden;
+}
+
+.cardTienda div{
+    text-align: center;
+    
+}
+
+.item1{
+    text-align: center;
+    font-size: 1.875rem;
+    font-family: 'Manrope';
+    color:#BFBAA8;
+    background-color:#8C8372;
+    letter-spacing: .125rem;    
+}
+
+.item2{
+    text-align: center;
+    font-size: 1.875rem;
+    font-family: 'Manrope';
+    color:#BFBAA8;
+    background-color:#8C8372;
+    letter-spacing: .125rem;   
+}
+
+.item3{
+    text-align: center;
+    font-size: 1.875rem;
+    font-family: 'Manrope';
+    color:#BFBAA8;
+    background-color:#8C8372;
+    letter-spacing: .125rem;   
+}
+
+footer{
+    display: flex;
+    background-color:#262626;
+}
+
+.sectionPrincipalcoleccion{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image:url("../assets/coleccionbackground.jpg");
+}
+
+.sectionPrincipalcoleccion h1{
+    font-family:'Manrope';
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    height: 9.6875rem;
+    font-size:40px;
+    text-shadow: 10px;
+    color:#E0D1B5;
+    align-items:center;
+}
+
+.contenedorColeccion h1{
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5) ;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000000a1;
+}
+
+.sectionPrincipalsale{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image:url("../assets/Salebackground.jpg");
+}
+
+.sectionPrincipalsale h1{
+    font-family:'Manrope';
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    height: 9.6875rem;
+    font-size:40px;
+    text-shadow: 10px;
+    color:#E0D1B5;
+    align-items:center;
+}
+
+.contenedorSale h1{
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color:#000000a1;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyGift{
+    background-image: url("../assets/andrew-kliatskyi-OZgeteFmhlo-unsplash\ 1.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ContenedorGift{
+    display: flex;
+    align-items:center ;
+    
+    width: 40.625rem;
+    height: 28.125rem;
+    margin: 0 auto;
+    margin-top: 9.375rem;
+    border-radius: .625rem;
+}
+
+
+.col-md-6 input{
+    width: 31.25rem;
+}
+.col-md-4 select{
+    width: 31.25rem;
+}
+.col-12 input{
+    width: 31.25rem;
+}
+
+
+
+.nosotros{
+    background-image: url("../assets/contactus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.contenedorNosotros{
+    margin-right: 500px;
+    background-color:#8c8372a9;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: .625rem;
+}
+.contenedorNosotros img{
+    width: 300px;
+    margin-left: 50px;
+}
+
+.imagenes img{
+    width: 80px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height:100px;
+}
+
+@media(max-width:1024px){
+    header{
+        flex-direction:row;
+    }
+    .navbar li a{
+        justify-content: center;
+        font-size: 1.5625rem;
+    }
+    .sectionPrincipal{
+        width: 100%;
+        height: 18.75rem;
+    }
+    .sectionPrincipal h1{
+        height: 100px;
+        font-size:1.25rem;
+    }
+    .cardTienda{
+        width:200px;
+        height: 350px;
+        
+    }
+    .productosInicio{
+        width: 100%;
+        grid-template-columns:30% 30% 30%;
+        grid-template-areas:
+        "item1 item2 item3"
+    ;
+    justify-content: center
+    }
+    .item1{
+        grid-area: item1;
+    }
+    .item2{
+        grid-area: item2;
+    }
+    .item3{
+        grid-area: item3;
+    }
+    .bodyGift{
+        width:100%;
+        height: 50rem;
+    } 
+    .ContenedorGift form{
+        padding-left: 25rem;
+    }
+    footer{
+        background-repeat:no-repeat ;
+        height: 100%;
+    
+    }
+}
+@media (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+    .navbar li a{
+        justify-content: center;
+        font-size: 1.5625rem;
+    }
+    .sectionPrincipal{
+        width: 100%;
+        height: 18.75rem;
+    }
+    .sectionPrincipal h1{
+        height: 100px;
+        font-size:1.25rem;
+    }
+    .cardTienda{
+        width:100%;
+        height:50px;
+        
+    }
+    .productosInicio{
+        padding-left: 14.375rem;
+        display: grid;
+        width:200px;
+        grid-template-areas:
+        "item1 item1 item1"
+        "item2 item2 item2"
+        "item3 item3 item3"
+        ;
+    }
+    .item1{
+        grid-area: item1;
+    }
+    .item2{
+        grid-area: item2;
+    }
+    .item3{
+        grid-area: item3;
+    }
+    .bodyGift{
+        width:100%;
+        height: 43.75rem;
+    } 
+    .ContenedorGift form{
+        padding-left: 16.25rem;
+    }
+    footer{
+        background-repeat:no-repeat ;
+        height: 100%;
+    
+    }
+    }
+
+    @media(max-width:425px){
+        header{
+            flex-direction: column;
+        }
+        .navbar li a{
+            justify-content: center;
+            text-align: center;
+            font-size: .9375rem;
+        }
+        .sectionPrincipal{
+            width: 100%;
+            height: 18.75rem;
+        }
+        .sectionPrincipal h1{
+            height: 100px;
+            font-size:20px;
+            text-align: center;
+        }
+        .cardTienda{
+            width:200px;
+            height: 350px;
+            
+        }
+        .productosInicio{
+            padding-left: 3.75rem;
+            display: grid;
+            width:200px;
+            grid-template-areas:
+            "item1 item1 item1"
+            "item2 item2 item2"
+            "item3 item3 item3"
+            ;
+        }
+        .item1{
+            grid-area: item1;
+        }
+        .item2{
+            grid-area: item2;
+        }
+        .item3{
+            grid-area: item3;
+        }
+        .bodyGift{
+            width: 100%;
+            height: 100%;
+        }
+        .ContenedorGift form{
+            padding-left: 6.25rem;
+        }
+        footer{
+            height: 100%;
+        
+        } 
+
+    }
+    @media(max-width:320px){
+        header{
+            flex-direction: column;
+        }
+        .navbar li a{
+            flex-direction:colu;
+            justify-content:center;
+            text-align: center;
+            font-size:10px;
+        }
+        .sectionPrincipal{
+            width: 100%;
+            height: 18.75rem;
+        }
+        .sectionPrincipal h1{
+            height: 100px;
+            font-size:20px;
+            text-align: center;
+        }
+        .cardTienda{
+            width:200px;
+            height: 350px;
+            
+        }
+        .productosInicio{
+            padding-left: 8px;
+            display: grid;
+            width:200px;
+            grid-template-areas:
+            "item1 item1 item1"
+            "item2 item2 item2"
+            "item3 item3 item3"
+            ;
+        }
+        .item1{
+            grid-area: item1;
+        }
+        .item2{
+            grid-area: item2;
+        }
+        .item3{
+            grid-area: item3;
+        }
+        .bodyGift{
+            width: 100%;
+            height: 100%;
+        }
+        .ContenedorGift form{
+            padding-left: 4.375rem;
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            
+        }
+    }

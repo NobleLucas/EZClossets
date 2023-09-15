@@ -1,0 +1,28 @@
+.nosotros {
+	background-image: url("../assets/contactus.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contenedorNosotros {
+	margin-right: 500px;
+	background-color: $background-color_6;
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 150px;
+	border-radius: .625rem;
+	img {
+		width: 300px;
+		margin-left: 50px;
+	}
+}
+.imagenes {
+	img {
+		width: 80px;
+		display: flex;
+		max-width: 100%;
+		height: auto;
+	}
+}

@@ -1,0 +1,36 @@
+header {
+	flex-direction: row;
+	background-color: $background-color_1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	img {
+		height: 4.375rem;
+	}
+}
+.navbar li:hover{
+	transform: scale(1.2);
+}
+
+.navbar li a:hover{
+	color:white;
+}
+
+.navbar {
+	display: flex;
+	list-style: none;
+	gap: 1.25rem;
+	padding-right: 2.5rem;
+	li {
+		a {
+			font-family: $font-family_1;
+			text-decoration: none;
+			text-align: center;
+			font-size: 1.3125rem;
+			color: $color_1;
+		}
+	}
+}
