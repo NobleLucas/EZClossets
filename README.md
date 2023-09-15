@@ -1,8 +1,9 @@
 # **Bienvenidos a EzClossets la tienda de tu sueños**
 **Creado por Lucas Noble** 
 
-## El sitio de EzClozzets esta formado por 5 paginas web, donde podras encontrar todo lo que necesitas para verte y sentirte bien!!
+![Logo-ez-blanco](https://github.com/NobleLucas/EZClossets/assets/62155812/873d6989-e14d-4fff-911a-929892cc1100)
 
+## El sitio de EzClozzets esta formado por 5 paginas web, donde podras encontrar todo lo que necesitas para verte y sentirte bien!!
 
 [========]
 
