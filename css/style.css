@@ -82,7 +82,7 @@ header {
   align-items: center; }
 
 .productosInicio {
-  display: grid;
+  display: flex;
   width: 100%;
   grid-template-columns: 30% 30% 30%;
   grid-template-areas: "item1 item2 item3";
@@ -98,7 +98,7 @@ header {
   letter-spacing: .125rem; }
 
 .item2 {
-  grid-area: item2;
+  grid-area: item1;
   text-align: center;
   font-size: 1.875rem;
   font-family: "Manrope";
@@ -107,7 +107,7 @@ header {
   letter-spacing: .125rem; }
 
 .item3 {
-  grid-area: item3;
+  grid-area: item1;
   text-align: center;
   font-size: 1.875rem;
   font-family: "Manrope";
@@ -116,7 +116,7 @@ header {
   letter-spacing: .125rem; }
 
 .cardTienda {
-  width: 500px;
+  width: 300px;
   border: solid 6px #BFBAA8;
   display: flex;
   flex-direction: column;
@@ -216,7 +216,7 @@ header {
 .col-md-6 input {
   width: 31.25rem; }
 
-.col-md-4 select {
+.col-md-4 input {
   width: 31.25rem; }
 
 .col-12 input {
@@ -246,6 +246,11 @@ header {
   display: flex;
   max-width: 100%;
   height: auto; }
+
+.imagenes p {
+  color: beige;
+  padding-left: 9.375rem;
+  font-size: 20px; }
 
 .sectionPrincipalsale {
   position: relative;
@@ -315,7 +320,14 @@ footer {
     padding-left: 25rem; }
   footer {
     background-repeat: no-repeat;
-    height: 100%; } }
+    height: 100%; }
+  .productosInicio p {
+    font-size: 1.25rem; }
+  .ContenedorGift {
+    justify-content: center;
+    padding-right: 18.75rem; }
+  .nosotros {
+    width: 100%; } }
 
 @media (max-width: 768px) {
   header {
@@ -331,11 +343,11 @@ footer {
       font-size: 1.25rem; }
   .cardTienda {
     width: 100%;
-    height: 50px; }
+    height: 32.5rem; }
   .productosInicio {
-    padding-left: 14.375rem;
+    padding-left: 10.625rem;
     display: grid;
-    width: 200px;
+    width: 31.25rem;
     grid-template-areas: "item1 item1 item1" "item2 item2 item2" "item3 item3 item3"; }
   .item1 {
     grid-area: item1; }
@@ -350,7 +362,9 @@ footer {
     padding-left: 16.25rem; }
   footer {
     background-repeat: no-repeat;
-    height: 100%; } }
+    height: 100%; }
+  .ContenedorGift {
+    padding-left: .375rem; } }
 
 @media (max-width: 425px) {
   header {
@@ -391,7 +405,16 @@ footer {
   .ContenedorGift form {
     padding-left: 6.25rem; }
   footer {
-    height: 100%; } }
+    height: 100%; }
+  .contenedorNosotros {
+    width: 18.75rem; }
+  .contenedorNosotros img {
+    width: 4.375rem;
+    padding-top: 2.5rem; }
+  .logoNosotros img {
+    width: 9.375rem; }
+  .productosInicio p {
+    font-size: 1.25rem; } }
 
 @media (max-width: 320px) {
   header {
@@ -429,4 +452,6 @@ footer {
     padding-left: 4.375rem; }
   footer {
     height: 100px;
-    width: 100%; } }
+    width: 100%; }
+  .productosInicio p {
+    font-size: 1.25rem; } }

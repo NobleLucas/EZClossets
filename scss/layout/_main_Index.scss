@@ -55,8 +55,7 @@
 }
 
 .productosInicio {
-	
-	display: grid;
+	display: flex;
 	width: 100%;
 	grid-template-columns: 30% 30% 30%;
 	grid-template-areas: "item1 item2 item3";
@@ -72,7 +71,7 @@
 	@include items;
 }
 .cardTienda {
-	width: 500px;
+	width: 300px;
 	border: solid 6px #BFBAA8;
 	display: flex;
 	flex-direction: column;
